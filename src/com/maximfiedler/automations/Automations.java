@@ -1,16 +1,15 @@
 package com.maximfiedler.automations;
 
 
-
 import com.maximfiedler.automations.automations.SelfModifier;
-import com.maximfiedler.automations.utils.RoboManager;
+import com.maximfiedler.automations.utils.RobotManager;
 
 import java.awt.*;
 
-public class Main {
+public class Automations {
     public static void main(String[] args) throws AWTException, InterruptedException {
         Robot robot = new Robot();
-        RoboManager robotUtils = new RoboManager(robot);
+        RobotManager robotUtils = new RobotManager(robot);
         SelfModifier selfModifier = new SelfModifier(robotUtils);
         executeSelfWrittenCode();
         selfModifier.writeInfinityCode();

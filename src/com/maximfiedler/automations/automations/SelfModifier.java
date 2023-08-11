@@ -1,13 +1,11 @@
 package com.maximfiedler.automations.automations;
 
-import com.maximfiedler.automations.utils.RoboManager;
-
 import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
 public class SelfModifier {
-    private final RoboManager roboManager;
-    public SelfModifier(RoboManager roboManager) {
+    private final com.maximfiedler.automations.utils.RobotManager roboManager;
+    public SelfModifier(com.maximfiedler.automations.utils.RobotManager roboManager) {
         this.roboManager = roboManager;
     }
 

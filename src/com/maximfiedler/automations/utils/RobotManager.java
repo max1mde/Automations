@@ -8,7 +8,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
-public record RoboManager(@Getter Robot robot) {
+public record RobotManager(@Getter Robot robot) {
 
     public void pasteFromClipboard() {
         this.robot.keyPress(KeyEvent.VK_CONTROL);
