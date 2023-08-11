@@ -23,8 +23,8 @@ public record RoboManager(@Getter Robot robot) {
     }
 
     public void runCurrentProgram() {
-        this.robot.mousePress(KeyEvent.VK_SHIFT);
-        this.robot.mousePress(KeyEvent.VK_F10);
+        this.robot.keyPress(KeyEvent.VK_SHIFT);
+        this.robot.keyPress(KeyEvent.VK_F10);
         this.robot.keyRelease(KeyEvent.VK_SHIFT);
         this.robot.keyRelease(KeyEvent.VK_F10);
     }

@@ -12,6 +12,17 @@ public class Main {
         Robot robot = new Robot();
         RoboManager robotUtils = new RoboManager(robot);
         SelfModifier selfModifier = new SelfModifier(robotUtils);
-        selfModifier.writeHelloWorld();
+        executeSelfWrittenCode();
+        selfModifier.writeInfinityCode();
     }
+
+    private static void executeSelfWrittenCode() {
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
+    }
+
+
 }
