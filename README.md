@@ -1,2 +1,2 @@
 # Automations
-Some fun methods using the Robot class
+Some fun methods using the java.awt.Robot class
